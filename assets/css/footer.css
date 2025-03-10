@@ -1,0 +1,170 @@
+
+.footer {
+    position: relative;
+    padding: 130px 0 112px 0;
+    z-index: 2;
+
+}
+
+.footer-line {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.footer-line img {
+    width: 100%;
+}
+
+
+
+.footer-body {
+    position: relative;
+
+}
+
+
+
+
+
+
+
+.footer-menu-list li a {
+    transition: .3s;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--black);
+
+
+}
+
+
+.footer-menu-list li a:hover {
+    color: var(--primary3);
+}
+
+
+.footer-menu-list {
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+
+.footer-cnt {
+    gap: 257px;
+    width: 100%;
+}
+
+.footer-logo {
+    flex: 0 0 103px;
+    height: 20px;
+    width: 100%;
+}
+
+.footer-menu {
+    flex: 1 1 100%;
+}
+
+.footer-clue {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.2px;
+    margin-top: 18px;
+    color: var(--gray2);
+
+}
+
+.footer-decor-mobile {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+
+    .footer-cnt {
+        gap: 28px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-menu {
+        flex: unset;
+    }
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+    .footer-decor-desktop {
+        display: none;
+    }
+
+    .footer-decor-mobile {
+        display: block;
+    }
+
+    .footer-menu-list {
+        column-gap: 82px;
+        flex-wrap: wrap;
+        row-gap: 16px;
+    }
+
+
+    .footer-service-item {
+        padding: 20px;
+        border-radius: 20px;
+        flex: 1 1 50%;
+    }
+
+    .footer-decor img {
+        border-radius: 38px 38px 0 0;
+    }
+
+
+    .footer-clue {
+        margin-top: 24px;
+    }
+
+    .footer {
+        padding: 70px 0 60px 36px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .footer-menu-list li a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+
+
+    .footer-menu-item:nth-child(2) {
+        order: 3;
+    }
+
+    .footer-btn {
+        padding: 12px 28px;
+
+    }
+
+    .footer-menu-item:nth-child(4) {
+        order: 4;
+    }
+
+
+}
+
