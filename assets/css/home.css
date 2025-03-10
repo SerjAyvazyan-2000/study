@@ -1,6 +1,7 @@
 
 .hero-section {
-
+    position: relative;
+    z-index: 2;
 }
 
 .hero-line {
@@ -122,7 +123,8 @@
     position: relative;
     z-index: 2;
 }
-.opportunities-title{
+
+.opportunities-title {
     max-width: 661px;
     margin: 0 auto;
 }
@@ -166,7 +168,8 @@
     max-width: 350px;
     width: 100%;
 }
-.big-cnt{
+
+.big-cnt {
     max-width: 500px;
 
 }
@@ -911,44 +914,44 @@
     .you-choose-column .block-title {
         text-align: start;
     }
-    .average-cnt .opportunities-tag:nth-child(1){
+
+    .average-cnt .opportunities-tag:nth-child(1) {
         order: 3;
     }
-    .average-cnt .opportunities-tag:nth-child(2){
+
+    .average-cnt .opportunities-tag:nth-child(2) {
         order: 4;
     }
 
-    .average-cnt .opportunities-tag:nth-child(3){
+    .average-cnt .opportunities-tag:nth-child(3) {
         order: 2;
     }
-    .average-cnt .opportunities-tag:nth-child(4){
+
+    .average-cnt .opportunities-tag:nth-child(4) {
         order: 1;
     }
 
 
-
-
-
-
-    .big-cnt .opportunities-tag:nth-child(1){
+    .big-cnt .opportunities-tag:nth-child(1) {
         order: 3;
     }
-    .big-cnt .opportunities-tag:nth-child(2){
+
+    .big-cnt .opportunities-tag:nth-child(2) {
         order: 4;
     }
 
-    .big-cnt .opportunities-tag:nth-child(3){
+    .big-cnt .opportunities-tag:nth-child(3) {
         order: 2;
     }
-    .big-cnt .opportunities-tag:nth-child(4){
+
+    .big-cnt .opportunities-tag:nth-child(4) {
         order: 1;
     }
 
 
-    .how-work-section{
+    .how-work-section {
         margin-top: 70px;
     }
-
 
 
     .trust-media {
@@ -1051,11 +1054,13 @@
     .how-work-item .block-text {
         margin-top: 12px;
     }
-    .w-text{
+
+    .w-text {
         max-width: 204px;
 
     }
-    .you-choose-item{
+
+    .you-choose-item {
         gap: 7px;
     }
 
@@ -1136,14 +1141,17 @@
     .average-cnt {
         max-width: 242px;
     }
-    .small-cnt{
+
+    .small-cnt {
         max-width: 300px;
 
     }
-    .big-cnt{
+
+    .big-cnt {
         max-width: 260px;
 
     }
+
     .opportunities-figure-item {
         padding: 20px 28px;
         height: 253px;
@@ -1262,13 +1270,16 @@
         margin-top: 16px;
 
     }
-    .text-mobile-w{
+
+    .text-mobile-w {
         max-width: 299px;
     }
-    .text-mobile-w2{
+
+    .text-mobile-w2 {
         max-width: 257px;
 
     }
+
     .how-work-line {
         left: 74px;
     }
