@@ -1,7 +1,6 @@
 
 .hero-section {
     position: relative;
-    z-index: 2;
 }
 
 .hero-line {
@@ -9,7 +8,7 @@
     left: 0;
     width: 100%;
     top: 250px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .hero-line img {
@@ -428,6 +427,10 @@
     display: block;
     max-width: max-content;
     margin: 0 auto;
+}
+
+.why-title .section-bg-text{
+    transform: rotate(-1deg);
 }
 
 .you-choose-item {
@@ -1006,8 +1009,14 @@
     }
 
     .faq-item {
-        padding: 18px 20px 10px 20px;
+        padding: 18px 20px 18px 20px;
+
     }
+    .faq-item.active {
+        padding: 18px 20px 10px 20px;
+
+    }
+
 
     .faq-item.active .faq-item-sub {
         margin-top: 17px;
@@ -1278,6 +1287,9 @@
     .text-mobile-w2 {
         max-width: 257px;
 
+    }
+    .how-work-tolls .work-tolls-text{
+        margin: 0 auto;
     }
 
     .how-work-line {
